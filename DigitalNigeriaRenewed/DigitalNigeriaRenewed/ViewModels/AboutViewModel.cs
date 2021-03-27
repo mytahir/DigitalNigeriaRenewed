@@ -9,7 +9,7 @@ namespace DigitalNigeriaRenewed.ViewModels
     {
         public AboutViewModel()
         {
-            Title = "About";
+            Title = "Digital Nigeria";
             OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://aka.ms/xamarin-quickstart"));
         }
 
